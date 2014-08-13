@@ -43,15 +43,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GLOCart.Caching\GLOCart.Caching\GLOCart.Caching.csproj">
+    <ProjectReference Include="..\GLOCart.Caching\GLOCart.Caching.csproj">
       <Project>{65d797ad-86d6-4800-b856-95175df7d12c}</Project>
       <Name>GLOCart.Caching</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GLOCart.Common\GLOCart.Common\GLOCart.Common.csproj">
+    <ProjectReference Include="..\GLOCart.Common\GLOCart.Common.csproj">
       <Project>{5cb2767e-739d-41d5-bba9-1d0650ed0103}</Project>
       <Name>GLOCart.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GLOCart.Domain\GLOCart.Domain\GLOCart.Domain.csproj">
+    <ProjectReference Include="..\GLOCart.Domain\GLOCart.Domain.csproj">
       <Project>{c8464b67-3544-43a0-bde4-4bafd4c20fd0}</Project>
       <Name>GLOCart.Domain</Name>
     </ProjectReference>

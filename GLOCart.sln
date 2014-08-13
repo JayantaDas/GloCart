@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.UI", "GLOCart.UI\GLOCart.UI\GLOCart.UI.csproj", "{8FB28CFA-37AC-44D1-95C3-C8B5986D0A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Application", "GLOCart.BusinessServices\GLOCart.BusinessServices\GLOCart.Application.csproj", "{DDCD5750-CB8B-4472-AF25-A7778DB26396}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Application", "GLOCart.BusinessServices\GLOCart.Application.csproj", "{DDCD5750-CB8B-4472-AF25-A7778DB26396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Domain", "GLOCart.Domain\GLOCart.Domain\GLOCart.Domain.csproj", "{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Domain", "GLOCart.Domain\GLOCart.Domain.csproj", "{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.DataAccess", "GLOCart.DataAccess\GLOCart.DataAccess\GLOCart.DataAccess.csproj", "{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.DataAccess", "GLOCart.DataAccess\GLOCart.DataAccess.csproj", "{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Common", "GLOCart.Common\GLOCart.Common\GLOCart.Common.csproj", "{5CB2767E-739D-41D5-BBA9-1D0650ED0103}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Common", "GLOCart.Common\GLOCart.Common.csproj", "{5CB2767E-739D-41D5-BBA9-1D0650ED0103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Caching", "GLOCart.Caching\GLOCart.Caching\GLOCart.Caching.csproj", "{65D797AD-86D6-4800-B856-95175DF7D12C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Caching", "GLOCart.Caching\GLOCart.Caching.csproj", "{65D797AD-86D6-4800-B856-95175DF7D12C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
