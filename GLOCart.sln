@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.UI", "GLOCart.UI\GLOCart.UI\GLOCart.UI.csproj", "{8FB28CFA-37AC-44D1-95C3-C8B5986D0A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Application", "GLOCart.BusinessServices\GLOCart.BusinessServices\GLOCart.Application.csproj", "{DDCD5750-CB8B-4472-AF25-A7778DB26396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Domain", "GLOCart.Domain\GLOCart.Domain\GLOCart.Domain.csproj", "{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.DataAccess", "GLOCart.DataAccess\GLOCart.DataAccess\GLOCart.DataAccess.csproj", "{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Common", "GLOCart.Common\GLOCart.Common\GLOCart.Common.csproj", "{5CB2767E-739D-41D5-BBA9-1D0650ED0103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLOCart.Caching", "GLOCart.Caching\GLOCart.Caching\GLOCart.Caching.csproj", "{65D797AD-86D6-4800-B856-95175DF7D12C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB28CFA-37AC-44D1-95C3-C8B5986D0A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB28CFA-37AC-44D1-95C3-C8B5986D0A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB28CFA-37AC-44D1-95C3-C8B5986D0A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB28CFA-37AC-44D1-95C3-C8B5986D0A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCD5750-CB8B-4472-AF25-A7778DB26396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCD5750-CB8B-4472-AF25-A7778DB26396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCD5750-CB8B-4472-AF25-A7778DB26396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCD5750-CB8B-4472-AF25-A7778DB26396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8464B67-3544-43A0-BDE4-4BAFD4C20FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DCB172-E87D-4A5C-9ED1-FDB63D5059EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB2767E-739D-41D5-BBA9-1D0650ED0103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB2767E-739D-41D5-BBA9-1D0650ED0103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB2767E-739D-41D5-BBA9-1D0650ED0103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB2767E-739D-41D5-BBA9-1D0650ED0103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D797AD-86D6-4800-B856-95175DF7D12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D797AD-86D6-4800-B856-95175DF7D12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D797AD-86D6-4800-B856-95175DF7D12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D797AD-86D6-4800-B856-95175DF7D12C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
