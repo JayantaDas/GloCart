@@ -39,8 +39,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advisory.cs" />
+    <Compile Include="AdvisoryDocument.cs" />
+    <Compile Include="AdvisoryDocumentTag.cs" />
+    <Compile Include="AdvisoryExpert.cs" />
+    <Compile Include="AdvisoryWatch.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Contracts\IAdvisory.cs" />
+    <Compile Include="Contracts\IEmailQueue.cs" />
+    <Compile Include="Contracts\ISchedule.cs" />
+    <Compile Include="Contracts\ITag.cs" />
+    <Compile Include="Contracts\IUser.cs" />
+    <Compile Include="EmailerQueue.cs" />
+    <Compile Include="EmailerType.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="Experts.cs" />
+    <Compile Include="ExpertTechTag.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\AdvisoryProvider.cs" />
+    <Compile Include="Providers\ScheduleProvider.cs" />
+    <Compile Include="Schedule.cs" />
+    <Compile Include="ScheduleAttendee.cs" />
+    <Compile Include="ScheduleExpertTag.cs" />
+    <Compile Include="ScheduleTechTag.cs" />
+    <Compile Include="TechnologyStack.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
