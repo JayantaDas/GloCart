@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,29 +40,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Advisory.cs" />
-    <Compile Include="AdvisoryDocument.cs" />
-    <Compile Include="AdvisoryDocumentTag.cs" />
-    <Compile Include="AdvisoryExpert.cs" />
-    <Compile Include="AdvisoryWatch.cs" />
-    <Compile Include="Contracts\IAdvisory.cs" />
-    <Compile Include="Contracts\IEmailQueue.cs" />
-    <Compile Include="Contracts\ISchedule.cs" />
-    <Compile Include="Contracts\ITag.cs" />
-    <Compile Include="Contracts\IUser.cs" />
-    <Compile Include="EmailerQueue.cs" />
-    <Compile Include="EmailerType.cs" />
-    <Compile Include="Entity.cs" />
-    <Compile Include="Experts.cs" />
-    <Compile Include="ExpertTechTag.cs" />
-    <Compile Include="Location.cs" />
+    <Compile Include="BusinessObjects\Advisory.cs" />
+    <Compile Include="BusinessObjects\AdvisoryDocument.cs" />
+    <Compile Include="BusinessObjects\AdvisoryDocumentTag.cs" />
+    <Compile Include="BusinessObjects\AdvisoryExpert.cs" />
+    <Compile Include="BusinessObjects\AdvisoryWatch.cs" />
+    <Compile Include="BusinessObjects\EmailerQueue.cs" />
+    <Compile Include="BusinessObjects\EmailerType.cs" />
+    <Compile Include="BusinessObjects\Entity.cs" />
+    <Compile Include="BusinessObjects\Experts.cs" />
+    <Compile Include="BusinessObjects\ExpertTechTag.cs" />
+    <Compile Include="BusinessObjects\Location.cs" />
+    <Compile Include="BusinessObjects\Schedule.cs" />
+    <Compile Include="BusinessObjects\ScheduleAttendee.cs" />
+    <Compile Include="BusinessObjects\ScheduleExpertTag.cs" />
+    <Compile Include="BusinessObjects\ScheduleTechTag.cs" />
+    <Compile Include="BusinessObjects\TechnologyStack.cs" />
+    <Compile Include="BusinessObjects\User.cs" />
+    <Compile Include="DataAccessContracts\IAdvisory.cs" />
+    <Compile Include="DataAccessContracts\IEmailQueue.cs" />
+    <Compile Include="DataAccessContracts\ISchedule.cs" />
+    <Compile Include="DataAccessContracts\ITag.cs" />
+    <Compile Include="DataAccessContracts\IUser.cs" />
+    <Compile Include="Repository\IDbContext.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Schedule.cs" />
-    <Compile Include="ScheduleAttendee.cs" />
-    <Compile Include="ScheduleExpertTag.cs" />
-    <Compile Include="ScheduleTechTag.cs" />
-    <Compile Include="TechnologyStack.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="DataAccessContracts\IAdvisoryRepository.cs" />
+    <Compile Include="DataAccessContracts\IScheduleRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

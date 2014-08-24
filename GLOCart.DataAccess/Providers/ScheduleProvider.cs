@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GLOCart.Domain;
-using GLOCart.Domain.Contracts;
+using GLOCart.Domain.DataAccessContracts;
 
 namespace GLOCart.DataAccess.Providers
 {

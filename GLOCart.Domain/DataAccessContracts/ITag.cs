@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GLOCart.Domain.Contracts
+namespace GLOCart.Domain.DataAccessContracts
 {
     public interface ITag
     {
