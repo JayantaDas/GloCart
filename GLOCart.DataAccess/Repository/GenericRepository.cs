@@ -20,7 +20,7 @@ namespace GLOCart.DataAccess.Repository
                 if (this._db == null)
                 {
                     return new Database(_connectionStringName);
-
+                    ///Testing This Again
                     //if (this._connectionStringName == string.Empty)
                     //    return ((PetaPocoContext)DbContextManager.Current).Db;
                     //else
@@ -122,6 +122,11 @@ namespace GLOCart.DataAccess.Repository
         }
 
         public int Count(string sqlCondition, params object[] args)
+        {
+            return DbContext.Query<TEntity>(sqlCondition, args).Count();
+        }
+
+        public int CountTest(string sqlCondition, params object[] args)
         {
             return DbContext.Query<TEntity>(sqlCondition, args).Count();
         }
