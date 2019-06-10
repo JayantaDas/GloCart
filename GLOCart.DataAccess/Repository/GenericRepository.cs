@@ -34,6 +34,7 @@ namespace GLOCart.DataAccess.Repository
         
         public GenericRepository() : this("Default")
         {
+            //New Changes
         }
 
         public GenericRepository(string connectionStringName)
